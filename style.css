@@ -1,0 +1,33 @@
+section, button{
+    text-align: center;
+     
+}
+
+img {
+    padding-top: 50px;
+    width: 1000px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#title {
+    padding-top: 25px;
+    font-size: 50px;
+}
+
+#move {
+    padding-top: 45px;
+    
+}
+
+
+.nameofpage {
+    font-size: 60px;
+}
+.adjust {
+    margin-top: 30px;
+}
+
