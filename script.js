@@ -1,6 +1,6 @@
 // This declares the first array
-let firstWord = ["Internet", "Insane","Inter-Galactic", "Iced", "Ibex", "Ices", "Iambic", "Iceberg", "Iceboat", "Ibuprofen", "Illegal", "Illustrative", "Imaginary", "Imagine", "Irresistable", "Informant", "Insane", "Inaudible", "Icabod"];
-let secondWord = ["Telemetry", "Tango", "Tangle", "Trust", "Table", "Tail", "Talent", "Tank", "Tape", "Target", "Task", "Technology", "Technique", "Tactic", "Tear","Taxi", "Turtles", "Transoformers"];
+let firstWord = ["Internet", "Insane","Inter-Galactic", "Iced", "Ibex", "Ices", "Iambic", "Iceberg", "Iceboat", "Ibuprofen", "Illegal", "Illustrative", "Imaginary", "Imagine", "Irresistable", "Informant", "Insane", "Inaudible", "Icabod", "Inter-Planetary"];
+let secondWord = ["Telemetry", "Tango", "Tangle", "Trust", "Table", "Tail", "Talent", "Tank", "Tape", "Target", "Task", "Technology", "Technique", "Tactic", "Tear","Taxi", "Turtles", "Transformers"];
 
 //This shuffles each array by number 
 let shuffleWordOne = Math.floor(Math.random() * firstWord.length);
