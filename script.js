@@ -18,3 +18,9 @@ function generateRandomWord(){
     document.getElementById("title").innerHTML = newWord
 };
 
+/*Turn this function on if you want to load a name upon going to website
+
+window.onload = function() {
+    generateRandomWord();
+}
+*/
