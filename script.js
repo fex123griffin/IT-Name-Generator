@@ -130,7 +130,7 @@ function generateRandomWord(){
 
     //This calls back to the position of the word in the array
     const randomWord = firstWord[shuffleWordOne];
-    const randomWordTwo = secondWord[shuffleWordTwo]
+    const randomWordTwo = secondWord[shuffleWordTwo];
 
     // Variable to combine the two words
     let newWord = randomWord + " " + randomWordTwo;
@@ -145,3 +145,31 @@ window.onload = function() {
     generateRandomWord();
 }
 */
+
+/* This section is setup for the password generator */
+
+function passwordGenerator() {
+    let nonSpecial = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
+    let passLength = 12;
+    let updatePass = " "
+    
+    
+    for (let i = 1; i <= passLength; i++) {
+        const randomIndex = Math.floor(Math.random() * nonSpecial.length);
+        updatePass += nonSpecial[randomIndex]
+
+    }
+    document.getElementById("title").innerHTML = updatePass
+};
+
+function passwordSpecial() {
+    let specialChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%&*";
+    let passLength = 12;
+    let updatePass = " "
+
+    for (let i = 1; i <= passLength; i++) {
+        const randomIndex = Math.floor(Math.random() * specialChars.length);
+        updatePass += specialChars[randomIndex]
+    }
+    document.getElementById("title").innerHTML = updatePass
+};
