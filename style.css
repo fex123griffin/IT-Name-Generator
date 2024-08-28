@@ -1,4 +1,4 @@
-section, button{
+section, button, footer{
     text-align: center;
      
 }
@@ -31,3 +31,6 @@ img {
     margin-top: 30px;
 }
 
+.refreshButton {
+    margin: 20px;
+}
