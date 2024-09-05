@@ -148,17 +148,19 @@ window.onload = function() {
 
 /* This section is setup for the password generator */
 
+//State the variables for the loop
 function passwordGenerator() {
     let nonSpecial = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
     let passLength = 12;
     let updatePass = " "
     
-    
+    //Trigger a loop to jumble the characters in the variable and set password length. This then updates to the updatePass variable
     for (let i = 1; i <= passLength; i++) {
         const randomIndex = Math.floor(Math.random() * nonSpecial.length);
         updatePass += nonSpecial[randomIndex]
 
     }
+    //Statement calls on on the update pass vairable and replaces the text with id of title
     document.getElementById("title").innerHTML = updatePass
 };
 
